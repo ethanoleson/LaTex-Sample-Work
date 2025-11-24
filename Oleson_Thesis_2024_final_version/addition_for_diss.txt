@@ -1,0 +1,17 @@
+The scalloped sample from Omega Cave exhibited an interesting pattern on the micron scale. 
+Figure \ref{fig:microscallops} shows an ESEM image of 71923A and highlights a “scallop-like” 
+pattern in the flow direction indicated by the larger scallop feature (not visible in the ESEM image). 
+The pockets seem to correspond to the ooid locations, although some pockets are empty. 
+These features are on the order of 100s of microns in width and length. The source of these features is not clear, 
+and we hesitate to call these scallops as their dimensions are less than the characteristic length of features 
+produced by the critical boundary layer thickness predicted by the rates from \cite{plummer} \citep{dreybrodtandbuhmann, 
+covingtonletter}. However, their scale is similar to the DBL thickness indicated by the relation for rough pipes 
+presented by \cite{covingtonletter} at low head gradients ($\sim 10^{-4}$ and $10{^-5}\ mm$). As these features coorespond to 
+the location of ooids, they may be formed mechanically through abrasion focusing on the downstream end or chemomechanical
+erosion where the ooid is entrained after the calcite matrix is dissolved. If these features are truly dissolutional, it 
+may indicate that the ooid disrupts flow over the surface and thus alters the thickess of the DBL creating a down stepping 
+pattern in the rock surface. The downstepping character is weakly visible in the scalloped sample from Sch\"{o}nberg-H\"{o}hlensystem, LPSC
+(Figure \ref{fig:microscallops}). LPSC, as opposed to 71923A, has no allochems to disrupt flow. The patterns in LPSC are not arcute, like 
+71923A, and are instead linear, yet the surface does still exhibit the "downstepping" pattern. Although puzzling, 
+these arcute patterns are only present on one of the three scalloped samples and not on any other solutional feature.
+These patterns will be discussed further in another section.

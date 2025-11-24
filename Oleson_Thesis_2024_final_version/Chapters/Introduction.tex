@@ -1,0 +1,79 @@
+\documentclass[12pt, oneside]{book}
+\usepackage[letterpaper, portrait, margin=1in]{geometry}
+\usepackage{olesonaca}
+\usepackage{lineno}
+\usepackage{appendix}
+\usepackage[abbrvnat]{natbib}
+\usepackage{setspace}
+\usepackage{xcolor}
+\usepackage{enumitem}
+\usepackage{fancyhdr}
+\usepackage{float}
+\pagestyle{fancyplain}
+\usepackage[mmddyyyy]{datetime}
+\renewcommand{\dateseparator}{.}
+\renewcommand{\headrulewidth}{0pt}
+\lhead{}
+\rhead{}
+\rfoot{}
+\lfoot{Updated by EWO on \today}
+
+
+
+\begin{document}
+
+
+\doublespacing
+\chapter{Introduction}
+
+\section{Study Sites}
+Seven sites from each major cave-forming lithology were chosen (Table \ref{tab:study_sites}). Five sites are located in the United States, one in Mexico, and one in Austria. Four of the seven sites are hosted in limestone, two in dolomite, and one in gypsum. Each site is hosted in a well-characterized formation (Table \ref{tab:site_lith}).  The author visited the sites in the United States for this study. At each site, a cave location was chosen for well-formed scallops or the lack of active stream-level scallops. \\
+
+
+Samples for the site in Mexico, J2, were collected for another study and served as a comparative sample. Both samples were taken at the same stratigraphic position, yet J2DHM is in the active stream, while J2DHS is presumably only in water during flood conditions. J2DHM is a mechanically eroded feature, smooth to the touch, while J2DHS is very crumbly, rough, and primarily eroded by dissolution.\\ 
+
+Samples from Sch\"{o}nberg-H\"{o}hlensystem in Austria, LPNS and LPSC, were collected and sent to the author by Lukas Plan. These samples are from a cave passage cut by a fault (Figure \ref{fig:schon_pic}). Although the true sense of kinematics on the fault is unknown, it is likely a thrust fault. Sch\"{o}nberg-H\"{o}hlensystem is on the northwest edge of the Tote Gebrige Nappe, and several thrust faults are known to cut the system (PLAN et al. 2023).  Above the fault, no distinct features form, whereas below, scallops are found. Sch\"{o}nberg is hosted in the Dachstein Limestone, and most of the cave is within the lagoonal facies. Both the hanging and foot walls are understood to be within the formation, yet perhaps they are different facies. 
+
+
+\begin{table}[h!]
+    \centering
+    \begin{longtable}{ p{5.5cm} p{4cm} p{3cm}} \hline
+\textbf{Cave} & \textbf{Location} & \textbf{Lithology} \\ \hline
+Boy Scout Springs Cave & Arkansas, USA & Limestone \\
+Onondaga Cave & Missouri, USA & Dolomite \\
+Bad Medicine/Tres Charros & Wyoming, USA & Dolomite \\
+Omega Cave & Virginia, USA & Limestone \\
+Parks Ranch Cave & New Mexico, USA & Gypsum \\
+J2 & Oaxaca, Mexico & Limestone \\
+Sch\"{o}nberg-H\"{o}hlensystem & Austria & Limestone
+
+    \end{longtable}
+    \caption{Field Sites for this study. Each site shows the location and major lithology.}
+    \label{tab:study_sites}
+\end{table}
+
+\begin{table}[h!]
+    \centering
+    \begin{longtable}{ p{5cm} | p{1.75cm} p{2.0cm} p{2.75 cm} p{2.75cm}} \hline
+\textbf{Cave} & \textbf{Scallops?} & \textbf{Lithology} & \textbf{Unit} & \textbf{Reference}\\ \hline
+Boy Scout Springs Cave & yes & Limestone  & Lower Boone& This Study\\
+Onondaga Cave & no & Dolomite & Gasconade & \cite{house2009}\\
+Bad Medicine/Tres Charros & no & Dolomite & Big Horn&\\
+Omega Cave & yes*  &  Limestone & Greenbrier (Big Lime)& \cite{schawartzandorndorff}\\
+Parks Ranch Cave & yes & Gyspum & Castile& \cite{nance} \\
+J2 - Cueva Cheve & yes & Limestone & & This Study\\
+Sch\"{o}nberg-H\"{o}hlensystem & yes & Limestone & Dachstein & \cite{planetal2023}
+
+    \end{longtable}
+    \caption{Study sites noting the presence of scallops, lithology, unit, and a reference for the unit.Note: Well-formed scallops are not found in the dolomite units.}
+    \label{tab:site_lith}
+\end{table}
+
+\begin{figure}[h!]
+    \centering
+    \includegraphics[scale =0.45]{Figures/pictures/schonberg_annotated.png}
+    \caption{Sample location in Sch\"{o}nberg-H\"{o}hlensystem. The labeled line symbolizes the fault plane cutting through the passage. The cave surface above the fault is not well scalloped, while the surface below is. The rock in the hanging wall is visually different from the foot wall. Photo by Lukas Plan.  }
+    \label{fig:schon_pic}
+\end{figure}
+
+\end{document}
